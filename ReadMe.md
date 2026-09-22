@@ -1,4 +1,4 @@
-# ITTChilesottiEsercizi
+# ITTChilesotti Esercizi
 
 Repository personale dedicato agli esercizi di programmazione svolti durante il mio percorso di scuola superiore.
 
