@@ -24,3 +24,5 @@ class Program
         Console.WriteLine("Percentuale di voti non favorevoli: " + Math.Round(100 - percentualeSi, 2) + "%"); //* (anche qua arrotondato a 2 cifre decimali)
     }
 }
+
+//il programma credo non usi certe librerie come su visual studio dato che io uso gia da anni VS Code e ho usato direttamente quello
