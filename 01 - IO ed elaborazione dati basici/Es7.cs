@@ -18,6 +18,8 @@ class Program
 
         Console.WriteLine("Paga Lordo: " + PagaLordo);
         Console.WriteLine("Paga Netto: " + pagaNetto);
+
+        Console.ReadKey()
     }
 }
 
