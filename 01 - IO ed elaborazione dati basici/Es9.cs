@@ -22,6 +22,8 @@ class Program
         Console.WriteLine("Percentuale di votanti: " + percentualeVotanti);
         Console.WriteLine("Percentuale di voti favorevoli: " + Math.Round(percentualeSi, 2) + "%"); //* (arrotondato a 2 cifre decimali)
         Console.WriteLine("Percentuale di voti non favorevoli: " + Math.Round(100 - percentualeSi, 2) + "%"); //* (anche qua arrotondato a 2 cifre decimali)
+
+        Console.ReadKey()
     }
 }
 
