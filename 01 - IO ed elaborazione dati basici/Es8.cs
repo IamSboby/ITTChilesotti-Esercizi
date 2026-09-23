@@ -9,6 +9,8 @@ class Program
         const int prezzoOlioNormale = 15, prezzoOlioPremium = 20;
         double prezzoSpesa =(double) ((litriPartitaOlio*prezzoOlioNormale)+(litriPartitaOlio * prezzoOlioPremium));
         Console.WriteLine("Prezzo della spesa:" + prezzoSpesa);
+
+        Console.ReadKey();
     }
 }
 
