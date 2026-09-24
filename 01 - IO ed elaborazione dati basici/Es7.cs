@@ -28,7 +28,7 @@ namespace Esercizio7 //Nome del progetto
             Console.WriteLine("Paga Netto: " + pagaNetto);
 
             Console.ReadKey();
-            //nn so peache ho messo P con la maiuscola a PagaLordo e pagaNetto, ma nn mi va di cambiare le variabili ora
+            //nn so peache ho messo P con la maiuscola a PagaLordo, ma nn mi va di cambiare le variabili ora
             //sappiate che nn cambia nulla, anzi credo che vi conviene mettere le prime lettere delle variabili con la minuscola per evitare problemi una volta iniziata la programmazione a oggetti
         }
     }
