@@ -19,7 +19,15 @@ namespace Esercizio5 //Nome del progetto
             faccia = Math.Pow(spigolo, 2); //usando la "sottofunzione" (pow) possiamo calcolare la potenza di un numero, usando questo formato: math.Pow(numero, potenza)
             facceTot = faccia * 6;
 
-            Console.Write("\nIl volume equivale a: " + volume);
+            //nel caso tutta questa storia delle classi o luso della classe math nn vi sia chiara potete usare questa soluzione altrenativa://
+            /* -> inizio commento lungo
+            volume = spigolo * spigolo * spigolo;
+            faccia = spigolo * spigolo;
+            facceTot = faccia * 6;
+            fine commento lungo <- */
+            
+
+            Console.Write("\nIl volume equivale a: " + volume); //dopo tutti i calcoli stampiamo i risultati
             Console.Write("\nIl volume equivale a: " + faccia);
             Console.Write("\nIl volume equivale a: " + facceTot);
             Console.ReadKey();
