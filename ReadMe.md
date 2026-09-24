@@ -40,14 +40,13 @@ ESxITTChilesotti/
     │   └── Quinto Esercizio: calcolo del cubo (uso della classe math)
     │
     ├── Es6.cs
-    │   └── Sesto Esercizio: swap dei valori di una variabile
+    │   └── Sesto Esercizio: "swap" dei valori di una variabile
     │
     ├── Es7.cs
     │   └── Settimo Esercizio: Calcolo stipendio con sottrazione percentuale
     │
     ├── Es8.cs
-    │   └── Ottavo Esercizio: Calcolo di una spesa con più prodotti
+    │   └── Ottavo Esercizio: Spesa di olio (Dichiarazione e assegnazione di varibili in una sola linea)
     │
     └── Es9.cs
         └── Nono Esercizio: Calcolo di percentuali e arrotondamento (Math)
-
