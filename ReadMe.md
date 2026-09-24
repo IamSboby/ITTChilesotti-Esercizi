@@ -4,6 +4,8 @@ Repository personale dedicato agli esercizi di programmazione svolti durante il 
 
 L'obiettivo di questo repository è raccogliere in modo ordinato gli esercizi realizzati durante le lezioni, così da poterli conservare e consultare nel tempo.
 
+Per importare un file `.cs` in Visual Studio Code, è necessario rinominarlo in `program.cs`.
+
 Il repository ha principalmente due scopi:
 
 - **Consultazione per altri studenti** — gli esercizi possono essere utilizzati come riferimento in caso di dubbi o per confrontare diversi approcci alla risoluzione di un problema.
