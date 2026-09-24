@@ -33,5 +33,3 @@ namespace Esercizio7 //Nome del progetto
         }
     }
 }
-    
-
