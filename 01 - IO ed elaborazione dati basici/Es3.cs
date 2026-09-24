@@ -13,7 +13,7 @@ namespace Esercizio3 //Nome del progetto
             int n1, n2, n3;
             double media;
 
-            Console.Write("Inserire primo numero: ");
+            Console.Write("Inserire primo numero: ");   //usando Console.Write() invece di Console.WriteLine() non andiamo a capo dopo aver scritto, quindi quando chiediamo l'input dell'utente, questo scriverà il numero sulla stessa riga della scritta
             n1 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("\nInserire secondo numero: "); //con \n andiamo a capo prima di scrivere
