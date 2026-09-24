@@ -1,17 +1,27 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace Esercizio8 //Nome del progetto
 {
-    static void Main()
+    class Program
     {
-        Console.Write("Inserisci i litri di olio da acquistare: ");
-        double litriPartitaOlio = Convert.ToDouble(Console.ReadLine());
-        const int prezzoOlioNormale = 15, prezzoOlioPremium = 20;
-        double prezzoSpesa =(double) ((litriPartitaOlio*prezzoOlioNormale)+(litriPartitaOlio * prezzoOlioPremium));
-        Console.WriteLine("Prezzo della spesa:" + prezzoSpesa);
+        static void Main()
+        {
+            //possiamo anche dichiarare i valori delle variabili nella stessa riga in cui le inizializziamo, quindi senza dover fare prima "int variabile;" e poi "variabile = valorevariabile;"
 
-        Console.ReadKey();
+            const int prezzoOlioNormale = 15, prezzoOlioPremium = 20; //un' esempio pratico
+
+            Console.Write("Inserisci i litri di olio da acquistare: ");
+            double litriPartitaOlio = Convert.ToDouble(Console.ReadLine()); //ma non solo, possiamo anche fare questo trucco con gli input
+
+            double prezzoSpesa =(double) ((litriPartitaOlio*prezzoOlioNormale)+(litriPartitaOlio * prezzoOlioPremium));
+
+            Console.WriteLine("Prezzo della spesa:" + prezzoSpesa);
+
+            Console.ReadKey();
+        }
     }
 }
-
-//il programma credo non usi certe librerie come su visual studio dato che io uso gia da anni VS Code e ho usato direttamente quello
