@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Esercizio12 //Nome del progetto
+namespace Esercizio12 //Nome del progetto 
 {
     class Program
     {
