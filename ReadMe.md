@@ -1,4 +1,5 @@
-# ITTChilesotti Esercizi
+# ITTChilesotti Esercizi: Istruzioni
+
 
 Repository personale dedicato agli esercizi di programmazione svolti durante il mio percorso di scuola superiore.
 
@@ -13,40 +14,40 @@ Il repository ha principalmente due scopi:
 
 > Gli esercizi presenti rappresentano il lavoro svolto durante il percorso scolastico e non devono essere considerati necessariamente come l'unica soluzione possibile a un problema.
 
-## Struttura del repository
+## Indice esercizi
 
 Il repository è organizzato in moduli, ognuno dedicato a determinati argomenti o concetti affrontati durante le lezioni.
 
 Le descrizioni riportate accanto agli esercizi corrispondono ai relativi messaggi di commit.
 
 ```text
-ESxITTChilesotti/
-│
-└── 01 - IO ed elaborazione dati basici/
-    │
-    ├── Es1.cs
-    │   └── Primo Esericzio: output stringa
-    │
-    ├── Es2.cs
-    │   └── Secondo Esercizio: operazioni con variabili tipo double
-    │
-    ├── Es3.cs
-    │   └── Terzo Esercizio: media aritmetica tra 3 numeri interi con risultato double
-    │
-    ├── Es4.cs
-    │   └── Quarto Esercizio: calcolo area rettangolo
-    │
-    ├── Es5.cs
-    │   └── Quinto Esercizio: calcolo del cubo (uso della classe math)
-    │
-    ├── Es6.cs
-    │   └── Sesto Esercizio: "swap" dei valori di una variabile
-    │
-    ├── Es7.cs
-    │   └── Settimo Esercizio: Calcolo stipendio con sottrazione percentuale
-    │
-    ├── Es8.cs
-    │   └── Ottavo Esercizio: Spesa di olio (Dichiarazione e assegnazione di varibili in una sola linea)
-    │
-    └── Es9.cs
-        └── Nono Esercizio: Calcolo di percentuali e arrotondamento (Math)
+ITTChilesotti-Esercizi/
+├── 01 - IO ed elaborazione dati basici/
+│   ├── Es01.cs
+│   │   └── Primo Esercizio: output stringa
+│   ├── Es02.cs
+│   │   └── Secondo Esercizio: operazioni con variabili tipo double
+│   ├── Es03.cs
+│   │   └── Terzo Esercizio: media aritmetica tra 3 numeri interi con risultato double
+│   ├── Es04.cs
+│   │   └── Quarto Esercizio: calcolo area rettangolo
+│   ├── Es05.cs
+│   │   └── Quinto Esercizio: calcolo del cubo (uso della classe Math)
+│   ├── Es06.cs
+│   │   └── Sesto Es0ercizio: "swap" dei valori di una variabile
+│   ├── Es7.cs
+│   │   └── Settimo Es0ercizio: calcolo stipendio con sottrazione percentuale
+│   ├── Es8.cs
+│   │   └── Ottavo Es0ercizio: spesa di olio (dichiarazione e assegnazione di variabili in una sola linea)
+│   ├── Es09.cs
+│   │   └── Nono Esercizio: calcolo di percentuali e arrotondamento (Math)
+│   ├── Es10.cs
+│   │   └── Decimo Esercizio: introduzione alle condizioni
+│   ├── Es11.cs
+│   │   └── Undicesimo Esercizio: uso dell'operatore "modulo" (%)
+│   └── Es12.cs
+│       └── Dodicesimo Esercizio: l'"else if" e le condizioni incatenate
+└── c#base.cs
+	└── Base per fare un C# come lo dà Visual Studio
+```
+
