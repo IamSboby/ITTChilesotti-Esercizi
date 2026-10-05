@@ -10,6 +10,7 @@ namespace NomeProgetto //Nome del progetto
     {
         static void Main(string[] args)
         {
+            //un array: prendiamo pre esempio che le variabili sono delle scatole, un'array è come un cassonetto con tante scatole dentro
             double[] numeri = new double[3];                //array di 3 numeri double, quindi con la virgola, che possono essere anche negativi
             
             for (int i = 0; i < numeri.Length; i++)         //ciclo for che si ripete per la lughezza dell'array (3 volte in sto caso)
