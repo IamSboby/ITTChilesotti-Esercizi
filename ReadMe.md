@@ -47,6 +47,26 @@ ITTChilesotti-Esercizi/
 │   │   └── Undicesimo Esercizio: uso dell'operatore "modulo" (%)
 │   └── Es12.cs
 │       └── Dodicesimo Esercizio: l'"else if" e le condizioni incatenate
+│   ├── Es13.cs
+│   │   └── Tredicesimo Esercizio: Calcolo numero maggiore (+soluzione alternativa con classe Math)
+│   │
+│   ├── Es14.cs
+│   │   └── Quattordicesimo Esercizio: Calcolo validita di una data, Introduzione all'operatore ternario
+│   │
+│   ├── Es15.cs
+│   │   └── Quindicesimo Esercizio: Calcolatrice con ripetizione fin che l' utente decida (usando ciclo while)
+│   │
+│   ├── Es16.cs
+│   │   └── Sedicesimo Esercizio: Calcolare possibilita di esistenza di un triangolo e il tipo di triangolo (spiegazione del valore null e come evitare un input null)
+│   │
+│   ├── Es17.cs
+│   │   └── Diciasettesimo Esercizio: Trovare frazione maggiore + menu interattivo (con ciclo do while)
+│   │
+│   ├── Es18.cs
+│   │   └── Diciottesimo Esercizio: Primo utilizzo di un array e ordinamento di un array
+│   │
+│   └── Es19.cs
+│       └── Dicianovesimo esercizio: Paga di un parcheggio (pensiero computazionale)
 └── c#base.cs
 	└── Base per fare un C# come lo dà Visual Studio
 ```
