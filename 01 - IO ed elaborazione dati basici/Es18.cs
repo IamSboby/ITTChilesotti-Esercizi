@@ -34,7 +34,6 @@ namespace NomeProgetto //Nome del progetto
             if (scelta == 1)
             {
                 Array.Sort(numeri);
-                
             }
             else if (scelta == 2)
             {
