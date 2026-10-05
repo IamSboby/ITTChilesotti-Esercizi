@@ -65,6 +65,8 @@ namespace Esercizio15 //Nome del progetto
             }
             Console.WriteLine("\nProgramma terminato.");
 
+            Console.ReadKey();
+
             //si, si poteva fare anche con un ciclo do while, ma sto cercando di fare una progressione più lineare cosi per la gente che non ha anchora capito bene puo imparare poco a poco
         }
     }
