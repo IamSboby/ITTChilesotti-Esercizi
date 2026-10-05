@@ -48,6 +48,7 @@ namespace NomeProgetto //Nome del progetto
                 Console.WriteLine(numero);          //stampo il numero corrente dell'array, che viene preso automaticamente dal foreach
             }
 
+            
             /* //?Spiegazione estesa del foreach:
               Il foreach è un costrutto di iterazione che permette di scorrere gli elementi di una collezione (come un array o una lista) senza dover gestire manualmente gli indici.
               La sintassi è la seguente:
@@ -58,6 +59,8 @@ namespace NomeProgetto //Nome del progetto
               In questo caso, "double numero" rappresenta l'elemento corrente dell'array "numeri" durante ogni iterazione del ciclo.
               Il ciclo continuerà fino a quando tutti gli elementi dell'array saranno stati elaborati.
              */
+            
+            Console.ReadKey();
         }
     }
 }
