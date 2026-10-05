@@ -55,6 +55,8 @@ namespace Esercizio12 //Nome del progetto
                 Console.WriteLine("\nIl pagamento a km è: " + pagamentoKm + " €");
                 Console.WriteLine("Il pagamento fisso più il rimborso è: " + pagamentoFisso + " €");
                 Console.WriteLine("Il costo della benzina è: " + costoBenzina + " €");
+                
+                Console.ReadKey();
             }
         }
     }
