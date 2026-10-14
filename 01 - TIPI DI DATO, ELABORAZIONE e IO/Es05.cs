@@ -12,7 +12,7 @@ namespace Esercizio5 //Nome del progetto
         {
             double spigolo, volume, faccia, facceTot;
 
-            Console.Write("Inserire primo numero: ");
+            Console.Write("Inserire spigolo: ");
             spigolo = Convert.ToDouble(Console.ReadLine());
 
             volume = Math.Pow(spigolo,3); //usando la "classe"(una funzione con più funzioni dentro) Math possiamo fare operazioni matematiche più complesse come la potenza, la radice quadrata ecc. senza dover scrivere il codice per calcolare queste operazioni da zero
