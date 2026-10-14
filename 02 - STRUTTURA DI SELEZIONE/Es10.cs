@@ -18,7 +18,7 @@ namespace Esercizio10 //Nome del progetto
              */
             Double prezzo, soldiScontati; //double pk possono essere numeri con la virgola, quindi nuemri reali
 
-            Console.WriteLine("Inserisci il prezzo del prodotto: ");
+            Console.Write("Inserisci il prezzo del prodotto: ");
             prezzo = Convert.ToDouble(Console.ReadLine());
 
             if (prezzo < 0)         //Controlliamo se il prezzo è negativo
