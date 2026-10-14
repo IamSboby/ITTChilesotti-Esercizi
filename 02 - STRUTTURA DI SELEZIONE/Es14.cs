@@ -11,39 +11,17 @@ namespace Esercizio14 //Nome del progetto
         static void Main(string[] args)
         {
             int giorno;
+            int mese;
+            int anno;
 
-            /*ciclo while al momento di inserire dati
-             usando il do while possiamo fare in modo che un input venga chiesto ripetutamente finche si compiano certe condizioni
-             La struttura si produce in questo modo:
-             do 
-             {
-                 messaggio per l' input
-             }
-             while (!                                       //*Dato che il while ripete finche la condizione sia vera, mettendo il ! davanti alla condizione, il ciclo si ripete finche la condizione non sia vera (molto utile perche fa il codice più facile da capire)
-                Convert.ToInt32(                            //*Convert.ToInt32() per convertere linput in un numero intero
-                    Console.ReadLine(), out giorno)         //*out significa che il valore dell'input viene inserito nella variabile seguite 
-                     || giorno < 1 || giorno > 31           //* "||" significa "oppure", quindi la condizione diventa vera (dato che viene invertita dal !) se l'input non è un numero intero oppure se il numero inserito è minore di 1 oppure maggiore di 31
-                );                                          //! Fine condizione, quindi il ciclo si ripete finche l'input non è un numero intero compreso tra 1 e 31
+            Console.Write("Inserisci il giorno: ");
+            giorno = Convert.ToInt32(Console.ReadLine());
 
-            normalmente viene scritto tutto in una riga, ma per comodità di lettura l'ho dissezionato in più righe
-            */
-            do
-            {
-                Console.Write("Inserisci il giorno: ");
-            }
-            while (!Convert.ToInt32(Console.ReadLine(), out giorno) || giorno < 1 || giorno > 31); 
+            Console.Write("Inserisci il mese: ");
+            mese = Convert.ToInt32(Console.ReadLine());
 
-            do 
-            {
-                Console.Write("Inserisci il mese: ");
-            }
-            while (!Convert.ToInt32(Console.ReadLine(), out int mese) || mese < 1 || mese > 12);
-
-            do 
-            {
-                Console.Write("Inserisci l'anno: ");
-            }
-            while (!Convert.ToInt32(Console.ReadLine(), out int anno) || anno < 1);
+            Console.Write("Inserisci l'anno: ");
+            anno = Convert.ToInt32(Console.ReadLine());
 
             bool dataValida = false; //indicatore che ci dirà se la data è valida o meno
             //? Fun Fact: in programmazione usare i bool in questa maniera di dice "flag" (bandiera) Come nelle gare type shi
