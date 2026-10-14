@@ -22,51 +22,64 @@ Le descrizioni riportate accanto agli esercizi corrispondono ai relativi messagg
 
 ```text
 ITTChilesotti-Esercizi/
-├── 01 - IO ed elaborazione dati basici/
+├── 01 - TIPI DI DATO, ELABORAZIONE e IO/
 │   ├── Es01.cs
-│   │   └── Primo Esercizio: output stringa
+│   │   └── Stampa di una stringa nella console
 │   ├── Es02.cs
-│   │   └── Secondo Esercizio: operazioni con variabili tipo double
+│   │   └── Operazioni aritmetiche tra due numeri reali
 │   ├── Es03.cs
-│   │   └── Terzo Esercizio: media aritmetica tra 3 numeri interi con risultato double
+│   │   └── Calcolo della media aritmetica di tre numeri interi
 │   ├── Es04.cs
-│   │   └── Quarto Esercizio: calcolo area rettangolo
+│   │   └── Calcolo di perimetro e area di un rettangolo
 │   ├── Es05.cs
-│   │   └── Quinto Esercizio: calcolo del cubo (uso della classe Math)
+│   │   └── Calcolo del volume e della superficie di un cubo
 │   ├── Es06.cs
-│   │   └── Sesto Es0ercizio: "swap" dei valori di una variabile
-│   ├── Es7.cs
-│   │   └── Settimo Es0ercizio: calcolo stipendio con sottrazione percentuale
-│   ├── Es8.cs
-│   │   └── Ottavo Es0ercizio: spesa di olio (dichiarazione e assegnazione di variabili in una sola linea)
+│   │   └── Scambio dei valori di due variabili tramite una variabile temporanea
+│   ├── Es07.cs
+│   │   └── Calcolo della paga lorda e netta con una percentuale di tasse
+│   ├── Es08.cs
+│   │   └── Calcolo del costo di una spesa in base ai litri di olio
 │   ├── Es09.cs
-│   │   └── Nono Esercizio: calcolo di percentuali e arrotondamento (Math)
+│   │   └── Calcolo e arrotondamento di percentuali di votanti e voti favorevoli
+│   └──
+├── 02 - STRUTTURA DI SELEZIONE/
 │   ├── Es10.cs
-│   │   └── Decimo Esercizio: introduzione alle condizioni
+│   │   └── Calcolo di uno sconto percentuale in base al prezzo
 │   ├── Es11.cs
-│   │   └── Undicesimo Esercizio: uso dell'operatore "modulo" (%)
-│   └── Es12.cs
-│       └── Dodicesimo Esercizio: l'"else if" e le condizioni incatenate
+│   │   └── Verifica se un numero è multiplo di un altro con l'operatore modulo
+│   ├── Es12.cs
+│   │   └── Confronto tra pagamento a chilometro e pagamento fisso con rimborso benzina
 │   ├── Es13.cs
-│   │   └── Tredicesimo Esercizio: Calcolo numero maggiore (+soluzione alternativa con classe Math)
-│   │
+│   │   └── Ricerca del maggiore tra tre numeri tramite condizioni
+│   ├── Es13(avanzato).cs
+│   │   └── Ricerca del maggiore tra tre numeri usando Math.Max
 │   ├── Es14.cs
-│   │   └── Quattordicesimo Esercizio: Calcolo validita di una data, Introduzione all'operatore ternario
-│   │
+│   │   └── Verifica della validità di una data e introduzione all'operatore ternario
+│   ├── Es14(avanzato).cs
+│   │   └── Verifica della data con controllo degli input tramite do-while e TryParse
+│   ├── Es14(facoltativo).cs
+│   │   └── Verifica della data usando DateTime.DaysInMonth
+│   ├── Es14(facoltativoAvanzato).cs
+│   │   └── Verifica della data con input validati e DateTime.DaysInMonth
 │   ├── Es15.cs
-│   │   └── Quindicesimo Esercizio: Calcolatrice con ripetizione fin che l' utente decida (usando ciclo while)
-│   │
+│   │   └── Calcolatrice interattiva con ciclo while e possibilità di cambiare numeri
 │   ├── Es16.cs
-│   │   └── Sedicesimo Esercizio: Calcolare possibilita di esistenza di un triangolo e il tipo di triangolo (spiegazione del valore null e come evitare un input null)
-│   │
+│   │   └── Verifica dell'esistenza e classificazione di un triangolo, incluso il caso rettangolo
 │   ├── Es17.cs
-│   │   └── Diciasettesimo Esercizio: Trovare frazione maggiore + menu interattivo (con ciclo do while)
-│   │
+│   │   └── Confronto e operazioni tra frazioni con menu interattivo
 │   ├── Es18.cs
-│   │   └── Diciottesimo Esercizio: Primo utilizzo di un array e ordinamento di un array
-│   │
+│   │   └── Ordinamento di tre numeri in ordine crescente o decrescente
+│   ├── Es18(avanzato).cs
+│   │   └── Ordinamento di un array con Array.Sort e Array.Reverse
 │   └── Es19.cs
-│       └── Dicianovesimo esercizio: Paga di un parcheggio (pensiero computazionale)
+│       └── Calcolo della tariffa di un parcheggio in base alle ore di sosta
+├── 03 - STRUTTURE ITERATIVE/
+│   ├── Es20.cs
+│   │   └── Stampa della tabellina di un numero tramite ciclo for
+│   ├── Es21.cs
+│   │   └── Calcolo del fattoriale di un numero
+│   └── Es22.cs
+│       └── Calcolo della media di un insieme di numeri tramite un array
 └── c#base.cs
 	└── Base per fare un C# come lo dà Visual Studio
 ```
